@@ -670,5 +670,5 @@ Zostałaś/eś poproszony o pobranie sekwencji 10, 11 i 12 chromosomu z genomu G
 
 ---
 
-| [Poprzedni Temat](https://github.com/AvirFrog/The_Curse_of_Linux) | [Strona główna](https://github.com/AvirFrog/The_Curse_of_Linux) | [Następny Temat](https://github.com/AvirFrog/The_Curse_of_Linux) |
+| [Poprzedni Temat](https://github.com/BioSoft23/The_Curse_of_Linux/tree/main/Temat_02) | [Strona główna](https://github.com/BioSoft23/The_Curse_of_Linux) | [Następny Temat](https://www.youtube.com/watch?v=dQw4w9WgXcQ) |
 | :---------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------- |
