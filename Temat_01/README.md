@@ -591,5 +591,5 @@ wsl --import <nazwa dystrybucji> <miejsce instalacji> <nazwa pliku archiwum>
 
 ---
 
-| [Poprzedni Temat](https://github.com/AvirFrog/The_Curse_of_Linux) | [Strona główna](https://github.com/AvirFrog/The_Curse_of_Linux) | [Następny Temat](https://github.com/AvirFrog/The_Curse_of_Linux) |
+| [Poprzedni Temat](https://github.com/BioSoft23/The_Curse_of_Linux/tree/main/Temat_00) | [Strona główna](https://github.com/BioSoft23/The_Curse_of_Linux) | [Następny Temat](https://github.com/BioSoft23/The_Curse_of_Linux/tree/main/Temat_02) |
 | :---------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------- |
