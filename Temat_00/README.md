@@ -114,7 +114,7 @@ Nie będę zanudzał Ciebie i siebie opowiadaniem o dystrybucjach, ponieważ nie
 
 <p align="center">
 
-| [Strona główna](https://github.com/BioSoft23/The_Curse_of_Linux) | [Następny Temat](https://github.com/AvirFrog/The_Curse_of_Linux) |
+| [Strona główna](https://github.com/BioSoft23/The_Curse_of_Linux) | [Następny Temat](https://github.com/BioSoft23/The_Curse_of_Linux/tree/main/Temat_01) |
 | :-------------------------------------------------------------: | :--------------------------------------------------------------- |
 
 </p>
