@@ -1,10 +1,10 @@
-# Temat 0: Czym jest linux?
+# Temat 0: Czym jest Linux?
 
 ## Spis treści
 <details>
 <summary>Kliknij by rozwinąć</summary>
 
-- [Temat 0: Czym jest linux?](#temat-0-czym-jest-linux)
+- [Temat 0: Czym jest Linux?](#temat-0-czym-jest-linux)
   - [Spis treści](#spis-treści)
   - [Czym jest Linux?](#czym-jest-linux)
     - [Wracając do Linuxa](#wracając-do-linuxa)
@@ -13,7 +13,7 @@
     - [Maskotka](#maskotka)
     - [Koniec wykładu z historii?](#koniec-wykładu-z-historii)
   - [Dlaczego używamy terminalu?](#dlaczego-używamy-terminalu)
-  - [Dystrybucje linuxa](#dystrybucje-linuxa)
+  - [Dystrybucje Linuxa](#dystrybucje-linuxa)
 </details>
 
 
@@ -23,7 +23,7 @@ Na początku był **UNIX**, czyli taki pradziadek systemów operacyjnych, z któ
 
 A tak na poważnie, w _Bell Labs_ w 1969 roku **Dennis Ritchie** i **Ken Thompson**, którzy są dość istotnymi postaciami w świecie programowania, stworzyli system **UNIX** (_tak naprawdę fundamenty systemu **UNIX** zostały stworzone przez Kena Thompsona w trzy tygodnie, ponieważ miał chwilę wolnego czasu, gdy jego żona wraz z córką wyjechały na wakacje_), który był oparty na języku **C** (którego **Ritchie** był głównym autorem). W latach 70. i 80. **UNIX** zyskał na popularności, a na tej popularności zaczęły powstawać nowe systemy operacyjne, takie jak **Linux** czy **macOS**.
 
-O tym, jakie dokładnie cuda działy się w historii systemu UNIX, zostawmy na inną okazję, bo inaczej zaczniemy potrzebować narzędzi archeologicznych, żeby to ogarnąć lub książki - _Jak UNIX tworzył historię_ autorstwa **Briana W. Kernighana** (nie jest to reklama xD. Po prostu uważam, że jest to książka warta uwagi, jeśli interesuje kogoś historia systemu **UNIX**).
+O tym, jakie dokładnie cuda działy się w historii systemu UNIX zostawmy na inną okazję, bo inaczej zaczniemy potrzebować narzędzi archeologicznych, żeby to ogarnąć lub książki - _Jak UNIX tworzył historię_ autorstwa **Briana W. Kernighana** (nie jest to reklama xD. Po prostu uważam, że jest to książka warta uwagi, jeśli interesuje kogoś historia systemu **UNIX**).
 
 <p align="center">
 <img alt="Ritchie i Thompson" src="img/legends.jpg" width="650">
@@ -55,11 +55,15 @@ Przeskoczmy teraz do 17 września 1991 roku, kiedy to została udostępniona pie
 
 ### Jak to dokładnie działa?
 
-No dobrze, ale czym jest to **jądro Linuxa**? Jest to najbardziej podstawowa część systemu operacyjnego, która zarządza wszystkimi zadaniami realizowanymi przez system, ale samemu nie tworzy systemu operacyjnego. Do tego potrzeba kilku składników, **powłoki systemowej** czyli pośrednika pomiędzy systemem operacyjnym a... Tobą, użytkownikiem lub pomiędzy aplikacjami. Kolejnym elementem jest **kompilator**, który odpowiada za tłumaczenie naszego kodu na język maszynowy, czyli taki, który zrozumie nasz komputer. Na koniec potrzebna będzie nam jeszcze **biblioteka**, miejsce, gdzie przechowywane są podprogramy, z których korzystamy do pisania własnych programów. Wszystko to w przypadku **Linuxa** realizowane jest przez **GNU**, czyli kolejny uniksopodobny (_jest to akronim od "**GNU's not Unix**" - heh_) system oparty na wolnym oprogramowaniu (**Linux** też jest oparty na wolnym oprogramowaniu, oznacza to, tyle że każdy może nad nim pracować, ponieważ jego kod źródłowy jest udostępniony publicznie. Co to oznacza? Że każdy może pomóc w jego rozwijaniu, poprawiać błędy, udoskonalać bezpieczeństwo).
+No dobrze, ale czym jest to jądro Linuxa? Jest to najbardziej podstawowa część systemu operacyjnego, która zarządza wszystkimi zadaniami realizowanymi przez system, ale **samodzielnie** nie tworzy systemu operacyjnego. **Potrzebne do tego jest kilka elementów takich jak:** 
+- powłoka systemowa, czyli pośrednik pomiędzy **Aplikacjami** lub **systemem operacyjnym** a **Użytkownikiem**
+- kompilator - odpowiada on za tłumaczenie naszego kodu na język maszynowy, czyli taki, który zrozumie nasz komputer
+- **biblioteka** -  miejsce, gdzie przechowywane są podprogramy z których korzystamy do pisania własnych programów.
+ Wszystko to w przypadku **Linuxa** realizowane jest przez **GNU**, czyli kolejny uniksopodobny (_jest to akronim od "**GNU's not Unix**" - heh_) system oparty na wolnym oprogramowaniu (**Linux** też jest oparty na wolnym oprogramowaniu, oznacza to tyle, że każdy może nad nim pracować, ponieważ jego kod źródłowy jest udostępniony publicznie, tzn. każdy może pomóc w jego rozwijaniu, poprawiać błędy, udoskonalać bezpieczeństwo).
 
 ### Linux czy GNU/Linux?
 
-Niektórzy fanatycy **Linuxa** mogliby stwierdzić, że całość powinna nazywać się **GNU/Linux** ze względu na to, że **GNU** bierze duży udział w Linuxie, inni z kolei powiedzą, że trafniejsza jest nazwa **Linux/GNU** ze względu na to, że to jądro systemu jest, uruchamiane jako pierwsze a prawda jest taka, że normalni śmiertelnicy jak my nazywają to **Linuxem** i tego się trzymajmy. Sama nazwa Linux to połączenie *Linus* i *UNIX* (_Jest jeszcze akronim tak samo, jak w przypadku GNU - **L**inux **I**s **N**ot **U**ni**X**_).
+Niektórzy fanatycy **Linuxa** mogliby stwierdzić, że całość powinna nazywać się **GNU/Linux** ze względu na to, że **GNU** bierze duży udział w Linuxie, inni z kolei powiedzą, że trafniejsza jest nazwa **Linux/GNU** ze względu na to, że to jądro systemu jest uruchamiane jako pierwsze, a prawda jest taka, że normalni śmiertelnicy jak my nazywają to **Linuxem** i tego się trzymajmy. Sama nazwa Linux to połączenie *Linus* i *UNIX* (_Jest jeszcze akronim tak samo, jak w przypadku GNU - **L**inux **I**s **N**ot **U**ni**X**_).
 
 > Z ciekawostek dodam, że to nie **Linus Torvalds** wymyślił nazwę a **Ari Lemmke**, który był administratorem serwera, na którym **Torvalds** udostępnił publicznie kod źródłowy **jądra Linuxa**.
 
@@ -69,7 +73,7 @@ Niektórzy fanatycy **Linuxa** mogliby stwierdzić, że całość powinna nazywa
 
 ### Maskotka
 
-Warto też wspomnieć o maskotce **Linuxa** czyli pingwinie o imieniu **Tux** (_nazwa najprawdopodobniej pochodzi od słów **T**orvald's **U**ni**X**_).
+Warto też wspomnieć o maskotce **Linuxa**, czyli pingwinie o imieniu **Tux** (_nazwa najprawdopodobniej pochodzi od słów **T**orvald's **U**ni**X**_).
 
 <p align="center">
 <img alt="Tux" src="img/TUX.png" height="500">
@@ -79,7 +83,7 @@ Warto też wspomnieć o maskotce **Linuxa** czyli pingwinie o imieniu **Tux** (_
 
 ### Koniec wykładu z historii?
 
-Czy coś z powyższego tekstu jest potrzebne, by pracować z Linuxem? Absolutnie nie. Dlaczego więc o tym pisze? Ponieważ historia systemu **UNIX** i **Linuxa** mnie interesuje i wydaje mi się, że niczego nie stracisz, czytając o niej. No może poza czasem XD, Ale jak mawia stare przysłowie:
+Czy coś z powyższego tekstu jest potrzebne, by pracować z Linuxem? Absolutnie nie. Dlaczego więc o tym piszę? Ponieważ historia systemu **UNIX** i **Linuxa** mnie interesuje i wydaje mi się, że niczego nie stracisz, czytając o niej. No może poza czasem XD, Ale jak mawia stare przysłowie:
 
 >"Linux jest darmowym systemem operacyjnym pod warunkiem, że twój czas jest bezwartościowy."
 
@@ -91,22 +95,22 @@ Z nieoficjalnych źródeł wiem, że powyższy cytat wypowiedziała osoba, któr
 
 Zanim przejdziemy do pytania, dlaczego warto korzystać z **terminalu**, warto zdefiniować, czym on w ogóle jest.
 
-> terminal – budynek lub zespół budynków będących wydzieloną częścią portu lotniczego, lub morskiego przeznaczoną do obsługi ruchu pasażerskiego i świadczącą usługi na rzecz pasażerów.
+> terminal – budynek lub zespół budynków będących wydzieloną częścią portu lotniczego lub morskiego przeznaczoną do obsługi ruchu pasażerskiego i świadczącą usługi na rzecz pasażerów.
 
-Pośmieszkowane, to teraz na poważnie, na systemie **Windows** korzystamy z graficznego interfejsu użytkownika (**GUI**), a w przypadku systemu **Linux** często sięga się po interfejs wiersza poleceń (**CLI**). Kiedy pracujemy zdalnie na serwerach, zawsze korzystamy z **wiersza poleceń**. Terminal to program, pozwalający nam na uruchomienie **wiersza poleceń** i interaktywną pracę z systemem operacyjnym. Z kolei **wiersz poleceń** to interaktywna konsola, dzięki której użytkownik może wprowadzać polecenia tekstowe i otrzymywać odpowiedzi od systemu operacyjnego. W przypadku **Linuxa** **wiersz poleceń** to podstawowe narzędzie do zarządzania całym systemem.
+Pośmieszkowane, to teraz na poważnie, na systemie **Windows** korzystamy z graficznego interfejsu Użytkownika (**GUI**), a w przypadku systemu **Linux** często sięga się po interfejs wiersza poleceń (**CLI**). Kiedy pracujemy zdalnie na serwerach, zawsze korzystamy z **wiersza poleceń**. Terminal to program, pozwalający nam na uruchomienie **wiersza poleceń** i interaktywną pracę z systemem operacyjnym. Z kolei **wiersz poleceń** to interaktywna konsola, dzięki której Użytkownik może wprowadzać polecenia tekstowe i otrzymywać odpowiedzi od systemu operacyjnego. W przypadku **Linuxa** **wiersz poleceń** to podstawowe narzędzie do zarządzania całym systemem.
 
-Jednak wśród użytkowników cieszy się on słabą opinią, ze względu na rozwój graficznych interfejsów użytkownika. Prawdę mówiąc, terminal może być na początku przytłaczający, ale po kilku godzinach pracy z nim docenisz jego zalety, gdy zorientujesz się, jak wiele rzeczy można dzięki niemu zrobić.
+Jednak wśród Użytkowników cieszy się on słabą opinią, ze względu na rozwój graficznych interfejsów Użytkownika. Prawdę mówiąc, terminal może być na początku przytłaczający, ale po kilku godzinach pracy z nim docenisz jego zalety, gdy zorientujesz się, jak wiele rzeczy można dzięki niemu zrobić.
 
-## Dystrybucje linuxa
+## Dystrybucje Linuxa
 
-Dystrybucje Linuxa to po prostu różne jego wersje. I na tym zdaniu można by poprzestać, ale rozwińmy myśl trochę dalej. Wszystkie dystrybucje korzystają z tego samego jądra, różnią się między sobą narzędziami i interfejsem użytkownika (GUI). **Ubuntu** (dystrybucja Linuxa, na której pracujemy w tym kursie) również ma GUI — powtarzam to z tego względu, że mogłem wcześniej zostać źle zrozumiany. My nie będziemy korzystać w tym kursie z interfejsu graficznego podczas pracy z Linuxem, co nie zmienia faktu, że go posiada.
+Dystrybucje Linuxa to po prostu różne jego wersje. I na tym zdaniu można by poprzestać, ale rozwińmy trochę myśl. Wszystkie dystrybucje korzystają z tego samego jądra, różnią się między sobą narzędziami i interfejsem Użytkownika (ang. Graphic User Interface - GUI). **Ubuntu** (dystrybucja Linuxa, na której pracujemy w tym kursie) również ma GUI — powtarzam to z tego względu, że mogłem wcześniej zostać źle zrozumiany. My nie będziemy korzystać w tym kursie z interfejsu graficznego podczas pracy z Linuxem, co nie zmienia faktu, że go posiada.
 
 
-Przykładowe dystrybucje linuxa:
+Przykładowe dystrybucje Linuxa:
 
-- **Ubuntu** - jedna z najpopularniejszych i łatwych w użyciu dystrybucji opartych na Debianie. Jest przeznaczona głównie dla ~~użytkowników końcowych~~ zwykłych śmiertelników
+- **Ubuntu** - jedna z najpopularniejszych i łatwych w użyciu dystrybucji opartych na Debianie. Jest przeznaczona głównie dla ~~Użytkowników końcowych~~ zwykłych śmiertelników
 - **Debian** - często jest wykorzystywany jako podstawa do innych dystrybucji Linuxa (jak pisałem wyżej)
-- **Fedora** - głównie dla zaawansowanych użytkowników.
+- **Fedora** - głównie dla zaawansowanych Użytkowników.
 
 Nie będę zanudzał Ciebie i siebie opowiadaniem o dystrybucjach, ponieważ nie ma to większego sensu. My będziemy korzystać z **Ubuntu**.
 
